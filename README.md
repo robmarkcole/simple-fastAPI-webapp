@@ -1,5 +1,7 @@
 # simple-fastAPI-webapp
-Use fastAPI to generate html web app that will serve a local directory or S3 bucket of image thumbnails and metadata, and provide links to the full sized images. Docker, python and fastAPI are the core technologies
+Use fastAPI to generate html web app that will serve a local directory or S3 bucket of image thumbnails and metadata, and provide links to the full sized images which can be downloaded. The endpoints can also be accessed programmatically via a rest API. Docker, python and fastAPI are the core technologies. Minimalism is preferred over a shiny interface, and it must be easy to put into production.
+
+Why [fastAPI](https://fastapi.tiangolo.com/) over flask? Read [this article](https://amitness.com/2020/06/fastapi-vs-flask/) for a detailed intro to the topic, but for me the big advantages are built in type validation, auto generated docs, and less boilerplate.
 
 ## Docker build and run
 ```
