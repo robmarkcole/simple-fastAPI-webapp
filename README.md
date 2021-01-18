@@ -1,5 +1,5 @@
 # simple-fastAPI-webapp
-Use fastAPI to generate html web app. The app will serve a local directory or S3 location of images. Docker, python and fastAPI are the core technologies
+Use fastAPI to generate html web app that will serve a local directory or S3 bucket of image thumbnails and metadata, and provide links to the full sized images. Docker, python and fastAPI are the core technologies
 
 ## Docker build and run
 ```
@@ -9,7 +9,7 @@ docker run -p 8000:8000 webapp:latest
 Then visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ## Development in venv
-_ `python3.7 -m venv venv`
+- `python3.7 -m venv venv`
 - `source venv/bin/activate`
 - `pip3 install -r requirements.txt`
 - `uvicorn main:app --reload`
