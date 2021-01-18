@@ -6,7 +6,7 @@ Use fastAPI to generate html web app that will serve a local directory or S3 buc
 docker build -t webapp .
 docker run -p 8000:8000 webapp:latest
 ```
-Then visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+Then visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The docs are at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
 
 ## Development in venv
 - `python3.7 -m venv venv`
