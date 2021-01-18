@@ -23,3 +23,4 @@ Then visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The docs are at [ht
 - https://haltakov.net/simple-photo-gallery/ -> flask app for serving image thumbnails as html app
 - [File Management with AWS S3, Python, and Flask](https://stackabuse.com/file-management-with-aws-s3-python-and-flask/) -> flask app for uploading and downloading files to S3, with [code](https://github.com/ro6ley/flask-drive)
 - https://github.com/robmarkcole/text-insights-app/tree/master/tesseract-engine -> fastAPI in docker
+- test
